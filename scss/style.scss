@@ -6,6 +6,46 @@
     padding: 0;
     margin: 0;
 }
+
+body{
+    min-width: 320px;
+    color: rgb(80, 80, 80);
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+}
+.icons{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+.faf-arrow{
+    height: 12px;
+    width: 12px;
+    background-size: cover;
+    background: url(../images/icons/arrow.svg) no-repeat;
+}
+.faf-facebook{
+    @extend .icons;
+    background: url(../images/icons/facebook.svg) no-repeat;
+}
+.faf-houzz{   
+    @extend .icons;
+    background: url(../images/icons/houzz.svg) no-repeat;
+}
+.faf-instagram{    
+    @extend .icons;
+    background: url(../images/icons/instagram.svg) no-repeat;
+}
+.faf-search{  
+    @extend .icons;
+    background: url(../images/icons/search.svg) no-repeat;
+}
+.faf-twitter{  
+    @extend .icons;
+    background: url(../images/icons/twitter.svg) no-repeat;
+}
+
+
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {}
 
@@ -17,20 +57,3 @@
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {}
-
-body{
-    min-width: 320px;
-    color: rgb(80, 80, 80);
-    font-family: 'Work Sans', sans-serif;
-    font-size: 14px;
-}
-
-nav, header, footer{
-    width: 100vh;
-}
-
-nav{
-    height: 100px;
-    display: flex;
-
-}
