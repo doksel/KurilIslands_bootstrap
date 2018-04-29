@@ -38,6 +38,8 @@ body {
 header {
   height: 300px;
   width: 100%; }
+  header .title {
+    z-index: 10; }
   header img {
     height: 300px; }
 
