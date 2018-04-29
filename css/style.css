@@ -35,4 +35,10 @@ body {
 .faf-twitter {
   background: url(../images/icons/twitter.svg) no-repeat; }
 
+header {
+  height: 300px;
+  width: 100%; }
+  header img {
+    height: 300px; }
+
 /*# sourceMappingURL=style.css.map */
