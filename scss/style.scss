@@ -44,15 +44,18 @@ body{
     @extend .icons;
     background: url(../images/icons/twitter.svg) no-repeat;
 }
-
+nav{
+    height: 15vh;
+}
 header{
-    height: 300px;
+    height: 60vh;
     width: 100%;
+    // padding: 0 !important;
     .title{
         z-index: 10;
     }
     img{
-        height: 300px;
+        height: 60vh;
     }
 }
 

@@ -35,12 +35,15 @@ body {
 .faf-twitter {
   background: url(../images/icons/twitter.svg) no-repeat; }
 
+nav {
+  height: 15vh; }
+
 header {
-  height: 300px;
+  height: 60vh;
   width: 100%; }
   header .title {
     z-index: 10; }
   header img {
-    height: 300px; }
+    height: 60vh; }
 
 /*# sourceMappingURL=style.css.map */
